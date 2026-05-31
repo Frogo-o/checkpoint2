@@ -1,19 +1,74 @@
 Example input for a quick smoke test:
 
 1
-4
-1
-6
-1
 3
-Review persistence
+2
+4
+5
+Demo Project
+Manual final smoke test
+2026-06-30
+6
+7
+Demo Project Edited
+Manual final smoke test edited
+2026-06-01
+2026-07-01
+8
+7
+Demo Task
+Check full menu
+3
+2026-06-20
+Martin
+9
+7
+8
+Demo Task Edited
+Check full menu edited
+4
+3
+2026-06-21
+Alex
+13
+7
+8
+Review output
+14
+7
+8
+1
+15
+7
+8
+school
+7
+Demo
+8
+3
+9
+7
+3
+10
+12
+7
+8
+13
+14
+3
+2
+10
 7
 8
 0
 
 Expected result:
 
-- The program prints the seeded project board.
-- The first project shows three tasks.
-- A checklist item can be added.
+- The program prints seeded boards and switches active board.
+- A project can be added and edited.
+- A task can be added and edited.
+- Checklist and tag actions work.
+- Search, filtering, sorting and reports produce output.
+- Activity history can be viewed.
 - `data.txt` is created and can be loaded again.
+- A task can be deleted.

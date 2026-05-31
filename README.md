@@ -5,7 +5,7 @@ Terminal C++ OOP application for project boards, projects and tasks.
 ## Build
 
 ```powershell
-g++ -std=c++17 -Wall -Wextra -pedantic src/main.cpp -o task_manager.exe
+g++ -std=c++17 -Wall -Wextra -pedantic src/*.cpp -o task_manager.exe
 ```
 
 or:
@@ -22,6 +22,5 @@ or:
 
 ## Checkpoint Notes
 
-The latest commit contains the final version for submission. See `FEATURES.md`,
-`TEST_PLAN.md` and `DESIGN_NOTES.md` for the implemented functionality, manual checks
-and design differences from the initial checkpoint plan.
+The final version uses separate header and source files for the classes. See
+`FEATURES.md` and `DESIGN_NOTES.md` for the implemented functionality and design notes.

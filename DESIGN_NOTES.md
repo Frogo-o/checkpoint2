@@ -10,21 +10,23 @@ The design follows the Checkpoint 1 plan and keeps the class hierarchy from the 
 - `TaskController` handles searching, filtering, sorting and statistics.
 - `StorageManager` handles saving and loading data.
 
-The main design change is that the project is implemented in one source file instead of separate
-`.h` and `.cpp` files. This was done to make the project easier to compile and review for the
-checkpoint. The OOP structure is still preserved through separate classes, encapsulated fields,
-inheritance, composition and enum types for task stage, priority and status.
+The checkpoint version was initially implemented in one source file. For the final version this
+was changed to a normal multi-file structure with separate `.h` and `.cpp` files for the classes.
+This better matches the final requirement and makes the class responsibilities clearer.
 
-Implemented functional areas in this checkpoint:
+Implemented functional areas in the final version:
 
-1. Project board and project management.
-2. Task management.
+1. Multiple project boards and project management.
+2. Full task management.
 3. Kanban stages and task movement.
 4. Checklist items.
 5. Priorities, deadlines and assignees as task fields.
-6. Save and load through `StorageManager`.
+6. Tags.
+7. Search, filtering and sorting through `TaskController`.
+8. Activity history.
+9. Statistics and project progress.
+10. Save and load for all boards through `StorageManager`.
 
-Some planned features from Checkpoint 1 are intentionally left as future work. The classes
-`Tag`, `ActivityLog` and the controller-style separation are represented in the code, but full
-menu workflows for search, filtering, sorting, statistics and tag management were not completed
-for this checkpoint.
+The final version follows the original Checkpoint 1 plan as a terminal application. The main
+design change is structural: the first checkpoint implementation started in a single source file,
+while the final version uses separate files for the classes.
