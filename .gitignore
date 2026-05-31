@@ -2,3 +2,5 @@ task_manager.exe
 data.txt
 *.o
 *.obj
+.vscode/
+src/.vscode/
